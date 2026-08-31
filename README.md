@@ -140,8 +140,8 @@ adilet-ai/
 ### 2. Clone and Configure Environment
 
 ```bash
-git clone https://github.com/your-username/kz-legal-rag.git
-cd kz-legal-rag
+git clone https://github.com/your-username/adilet-ai.git
+cd adilet-ai
 ```
 
 Copy the example environment file:
@@ -152,7 +152,7 @@ cp .env.example .env
 Edit `.env` and add your Google Gemini API Key:
 ```env
 GEMINI_API_KEY=AIzaSy...your_gemini_api_key_here
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.5-flash
 ```
 
 ### 3. Start PostgreSQL with pgvector
